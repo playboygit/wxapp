@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/home/order",
+    "pages/home/my",
+    "pages/home/help",
+    "pages/home/goodsDetail",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "兵哥的app",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "发现",
+      "iconPath":"pages/home/images/find.png",
+      "selectedIconPath":"pages/home/images/find_active.png"
+    }, {
+      "pagePath": "pages/home/order",
+      "text": "订单",
+      "iconPath":"pages/home/images/order.png",
+      "selectedIconPath":"pages/home/images/order_active.png"
+    }, {
+      "pagePath": "pages/home/my",
+      "text": "我的",
+      "iconPath":"pages/home/images/my.png",
+      "selectedIconPath":"pages/home/images/my_active.png"
+    }],
+    "color":"#999",
+    "selectedColor": "#000000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position":"bottom"
+  },
+  "networkTimeout": {
+    "request": 8000,
+    "downloadFile": 8000
+  }
+}

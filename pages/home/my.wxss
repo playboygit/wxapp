@@ -1,0 +1,10 @@
+/**my.wxss**/
+.bgfa{background-color: #fafafa;}
+.wrap-item-row{border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;padding-left: 10px;background-color: #fff;}
+.my-item{padding:12px 10px 12px 0;border-bottom: 1px solid #ddd;}
+.wrap-item-row .my-item:last-child{border-bottom:none;}
+.person-img-box{width: 60px;height: 60px;}
+.person-img-box image{width: 100%;height:100%; border-radius: 50%;}
+.more-item{width: 8px;height: 14px;background:url(images/arr-right.png) no-repeat right center;background-size:8px 14px;}
+.person-img-txt{margin-top:24px;display: inline-block;}
+

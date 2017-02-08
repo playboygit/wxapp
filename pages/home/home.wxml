@@ -1,0 +1,18 @@
+<view class="container pt0">
+	<view class="page-container">
+		<scroll-view id="goodsContainer" class="goods-container" style="height: {{scrollHeight}}px;" scroll-y="true" bindscrolltolower="loadGoods" lower-threshold="100" bindscroll="scrollLoad">
+			<view class="goods-list">
+				<view class="goods-item" wx:for="{{goods_list}}" wx:key="unique" bindtap="godetail">
+					<view class="goods-item-img">
+						<image src="{{item.img_url}}"></image>
+					</view>
+					<view class="goods-info c999 f12">
+						<text>来自：<text>{{item.shop}}{{index}}</text></text>
+						<text> | </text>
+						<text>{{item.num}}人购买</text>
+					</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+</view>

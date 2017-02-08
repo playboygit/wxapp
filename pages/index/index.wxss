@@ -1,0 +1,44 @@
+/**index.wxss**/
+.block{
+  display:block;
+}
+.userinfo {
+  display: block;
+  margin:40px auto;
+  text-align: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  display: block;
+}
+
+.usermotto {
+  margin-top: 60px;
+  display: block;
+  text-align: center;
+}
+
+.intoapp{
+  margin-top:60px;
+  width: 100%;
+  text-align: center;
+}
+.intoappbtn{
+  font-size: 16px;
+  width:50%;
+  display: inline-block;
+}
+.intoappbtn>icon{
+  vertical-align: -4px;
+  margin-right:2px;
+}
+.flex-wrp{width: 70%;text-align: center;font-size: 14px;margin:10px auto;}
+.flex-wrp .flex-item{width:80px;display: inline-block;}

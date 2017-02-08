@@ -1,0 +1,3 @@
+<view class="container pt0 bgfa txt-center" style="min-height:{{pageHeight}}px;">
+	<view animation="{{animationData}}" class="animateBox"></view>
+</view>

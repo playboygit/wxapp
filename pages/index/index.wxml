@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="flex-wrp">
+    <text class="flex-item">当前设备：</text>
+    <text class="">{{curSystem}}</text>
+  </view>
+  <view class="flex-wrp mt10">
+    <text class="flex-item">当前位置：</text>
+    <text class="">{{curLocation}}</text>
+  </view>
+  <view class="intoapp">
+    <button class="intoappbtn" bindtap="goapp"><icon type="success" size="22" color="green"/>进入app</button>
+  </view>
+</view>

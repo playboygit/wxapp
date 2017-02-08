@@ -1,0 +1,43 @@
+<view class="container pt0 bgfa" style="min-height:{{pageHeight}}px;">
+	<view class="page-my">
+		<view class="wrap-item-row">
+			<view class="my-item group" bindtap="changeImg">
+				<view class="person-img-box fr">
+					<image src="{{userInfo.avatarUrl}}"></image>
+				</view>
+				<text class="person-img-txt">头像</text>
+			</view>
+		</view>
+		<view class="wrap-item-row mt20">
+			<view class="my-item group">
+				<text class="fr c999">{{userInfo.nickName}}</text>
+				<text>昵称</text>
+			</view>
+			<view class="my-item group">
+				<text class="fr c999">{{userInfo.gender==1?"男":"女"}}</text>
+				<text>性别</text>
+			</view>
+			<view class="my-item group">
+				<text class="fr more-item"></text>
+				<text>我的收获地址</text>
+			</view>
+		</view>
+		<view class="wrap-item-row mt20">
+			<view class="my-item group hide">
+				<text class="fr more-item"></text>
+				<text>联系客服</text>
+			</view>
+			<contact-button type="default-light" size="50" class="my-item group" session-from="weapp" style="display:block;padding-bottom:2px;"
+				>
+				<text class="fr more-item"></text>
+				<text class="fl">联系客服</text>
+			</contact-button>
+		</view>
+		<view class="wrap-item-row mt20" bindtap="goHelp">
+			<view class="my-item group">
+				<text class="fr more-item"></text>
+				<text>帮助中心</text>
+			</view>
+		</view>
+	</view>
+</view>

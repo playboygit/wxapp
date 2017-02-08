@@ -1,0 +1,9 @@
+/**home.wxss**/
+/*footer*/
+.foot-tab{position:fixed;z-index:999;left:0;bottom:0;height:50px;background-color:#f0f4f0;border-top:1px solid #ddd;width:100%;}
+.wrap-foot-list .foot-tab-item{float:left;width:33.33%;text-align:center;}
+.wrap-foot-list .foot-tab-icon{display:inline-block;width:24px;height:24px;background:url(images/my_active.png) no-repeat center center;background-size:24px;margin-top:2px;}
+.wrap-foot-list .foot-tab-item text{display:block;font-size:14px;text-align:center;margin-top:2px;}
+/*home*/
+.goods-item-img image{width:100%;}
+.goods-info{padding: 6px; white-space: nowrap;}

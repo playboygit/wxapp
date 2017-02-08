@@ -1,0 +1,9 @@
+/* pages/home/help.wxss */
+@keyframes roundBox{
+	0%{transform:translate(0,0);background-color:rgb(0,0,0);}
+    25%{transform:translate(100px,100px);}
+    50%{transform:translate(0,200px);background-color:rgb(255,200,200);}
+    75%{transform:translate(-100px,100px);}
+	100%{transform:translate(0,0);background-color:rgb(0,0,0);}
+}
+.animateBox{height:100px;width:100px;display:inline-block;animation: roundBox 5s linear infinite;}

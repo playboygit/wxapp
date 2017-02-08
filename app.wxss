@@ -1,0 +1,33 @@
+/**app.wxss**/
+view,text{font-size: 14px;line-height: 1.25;color: #333;}
+.container {
+  width:100%;
+  display: block;
+  padding:40px 0 60px 0;
+  position:relative;
+  box-sizing: border-box;
+  font-size:14px;
+}
+.group:before,.group:after{content:'';display: block;line-height: 0;height: 0;font-size: 0;clear: both;}
+.hide{display: none;}
+.fr{float:right;}
+.fl{float:left;}
+.txt-ar{text-align: right!important;}
+.txt-al{text-align: left!important;}
+.txt-center{text-align: center!important;}
+.mt10{margin-top: 10px;}
+.mt20{margin-top: 20px;}
+.mt4{margin-top: 4px;}
+.pt0{padding-top: 0!important;}
+.pt40{padding-top:40px;}
+.f12{font-size: 12px!important;}
+.f14{font-size: 14px!important}
+.f16{font-size: 16px!important}
+.f18{font-size: 18px!important}
+.c999{color: #999!important;}
+.c666{color: #666!important;}
+.c000{color: #000!important;}
+.cred{color: #ff3737!important;}
+/*header*/
+.header{position:fixed;z-index:999;left:0;top:0;height:40px;background-color:#fff;border-top:1px solid #ddd;border-bottom:1px solid #ddd;width:100%;text-align: center;}
+.top-header{height:40px;text-align:center;line-height:40px;}

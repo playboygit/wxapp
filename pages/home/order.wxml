@@ -1,0 +1,70 @@
+<view class="container">
+	<view class="header">
+		<view class="order-type-list group">
+			<view class="order-type-item active">全部</view>
+			<view class="order-type-item">待付款</view>
+			<view class="order-type-item">待发货</view>
+			<view class="order-type-item">待收货</view>
+		</view>
+	</view>
+	<scroll-view scroll-y="true" id="orderContainer" style="height:500px;">
+		<view class="order-container-item">
+			<view class="order-list">
+				<view class="order-list-item">
+					<view class="order-item-top">
+						<view class="c333">
+							<text>店铺：发烧友店</text>
+							<text class="fr cred">交易关闭</text>
+						</view>
+						<view class="f12 c999 mt4">
+							订单编号：E332323232323
+						</view>
+					</view>
+					<view class="order-goods-box">
+						<view class="wrap-order-img">
+							<image src="images/1.jpg"/>
+						</view>
+						<view class="goods-box-right">
+							<view>
+								<text class="c333">HIFI发烧友耳机</text>
+								<text class="c333 fr">￥1499</text>
+							</view>
+							<view class="mt4">
+								<text class="fr f12 c999">x1</text>
+								<text class="f12 c999">畅想无极限，HIFI</text>
+							</view>
+						</view>
+					</view>
+					<view class="orow-box txt-ar">合计：<text class="cred">￥1499.00</text></view>
+				</view>
+				<view class="order-list-item">
+					<view class="order-item-top">
+						<view class="c333">
+							<text>店铺：发烧友店</text>
+							<text class="fr cred">交易关闭</text>
+						</view>
+						<view class="f12 c999 mt4">
+							订单编号：E332323232323
+						</view>
+					</view>
+					<view class="order-goods-box">
+						<view class="wrap-order-img">
+							<image src="images/1.jpg"/>
+						</view>
+						<view class="goods-box-right">
+							<view>
+								<text class="c333">HIFI发烧友耳机</text>
+								<text class="c333 fr">￥1499</text>
+							</view>
+							<view class="mt4">
+								<text class="fr f12 c999">x1</text>
+								<text class="f12 c999">畅想无极限，HIFI</text>
+							</view>
+						</view>
+					</view>
+					<view class="orow-box txt-ar">合计：<text class="cred">￥1499.00</text></view>
+				</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

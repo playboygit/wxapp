@@ -1,0 +1,17 @@
+<view class="foot-tab">
+  	<view class="wrap-foot-list group">
+  		<view class="foot-tab-item">
+	    	<icon class="foot-tab-icon"/>
+	        <text>发现</text>
+	    </view>
+	    <view class="foot-tab-item">
+	    	<icon class="foot-tab-icon"/>
+	        <text>订单</text>
+	    </view>
+	    <view class="foot-tab-item">
+	    	<icon class="foot-tab-icon"/>
+	        <text>我的</text>
+	    </view>
+  	</view>
+</view>   
+
